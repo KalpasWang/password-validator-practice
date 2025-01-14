@@ -17,7 +17,7 @@ public class PasswordValidator {
         boolean hasLowercase = false;
         boolean hasDigit = false;
         boolean hasSpecialChar = false;
-        String specialCharacters = "!@#$%^&*()-+";
+        String specialCharacters = "!@#$%^&*()-+_";
 
         for (char ch : password.toCharArray()) {
             if (Character.isUpperCase(ch)) {
